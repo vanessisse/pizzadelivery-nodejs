@@ -1,0 +1,20 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "pizzadelivery",
+    "dateExported": "2023-03-17T16:08:37.710Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "BaseURL",
+            "value": "http://localhost:"
+        },
+        {
+            "name": "Port",
+            "value": "3000"
+        },
+        {
+            "name": "Token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTQ3ZWMwYjliNDhkZjhlOGExZmU4YSIsImlhdCI6MTY3OTA2NDk3MCwiZXhwIjoxNjc5MTUxMzcwfQ.cpypnMsGp7PfCgxopRX8gZjNIBHDrB2zuNbOcv_UrwQ"
+        }
+    ]
+}
