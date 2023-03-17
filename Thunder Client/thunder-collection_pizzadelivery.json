@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "pizzadelivery",
-    "dateExported": "2023-03-17T16:08:22.638Z",
+    "dateExported": "2023-03-17T16:21:43.587Z",
     "version": "1.1",
     "folders": [
         {
@@ -104,12 +104,12 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2023-03-17T13:01:07.021Z",
-            "modified": "2023-03-17T14:58:49.557Z",
+            "modified": "2023-03-17T16:14:31.831Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nome\": \"Usuário 4\",\n  \"email\": \"usuario4@email.com\",\n\n  \"admin\": false\n}",
+                "raw": "{\n  \"nome\": \"Usuário 5\",\n  \"email\": \"usuario5@email.com\",\n  \"senha\": \"italent4321\",\n  \"imagem\": \"img.usuario.com/usuario5.jpg\",\n  \"admin\": false\n}",
                 "form": []
             },
             "tests": []
@@ -323,16 +323,16 @@
             "colId": "5a2ae98c-8a1f-4d24-b3f5-509d34801638",
             "containerId": "691069bd-0d1a-4815-9701-91e8861921a0",
             "name": "update",
-            "url": "{{BaseURL}}{{Port}}/produto/update/64040e4cf73ed3c7131cb305",
+            "url": "{{BaseURL}}{{Port}}/produto/update/64148d4fc8071cdb1781e5d4",
             "method": "PUT",
             "sortNum": 150000,
             "created": "2023-03-17T13:01:07.033Z",
-            "modified": "2023-03-17T13:01:07.033Z",
+            "modified": "2023-03-17T16:17:55.645Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nome\": \"Produto 1\",\n  \"descricao\": \"Produto de qualidade.\",\n  \"precoUnitario\": 12.5,\n  \"imagem\": \"img.produtoimg/produto1.jpg\",\n  \"codigoBarra\": 1234567,\n  \"categorias\": [\n    {\"_id\": \"64040795e8fbf0aeec5b8395\"}\n    ]\n}",
+                "raw": "{\n  \"nome\": \"Pizza de Chocolate\",\n  \"descricao\": \"Pizza doce com chocolate derretido e morangos\",\n  \"ingredientes\": [\n    \"chocolate\",\n    \"morangos\"\n  ],\n  \"tamanho\": \"médio\",\n  \"precoUnitario\": 35.00,\n  \"disponivel\": true,\n  \"imagem\": \"img.produtoimg/pizza1.jpg\",\n  \"codigoBarra\": 12345,\n  \"categorias\": [\n    {\n      \"_id\": \"64148a6cdeb45e70a291dd7a\"\n    }\n  ]\n}",
                 "form": []
             },
             "auth": {
@@ -427,12 +427,12 @@
             "method": "PUT",
             "sortNum": 230000,
             "created": "2023-03-17T13:01:07.038Z",
-            "modified": "2023-03-17T13:01:07.038Z",
+            "modified": "2023-03-17T16:19:53.139Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nome\": \"Videogames New\"\n}",
+                "raw": "{\n  \"nome\": \"Pizzas\"\n}",
                 "form": []
             },
             "auth": {
@@ -537,12 +537,12 @@
             "method": "PUT",
             "sortNum": 300000,
             "created": "2023-03-17T13:01:07.043Z",
-            "modified": "2023-03-17T13:01:07.043Z",
+            "modified": "2023-03-17T16:21:11.800Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": " {\r\n    \"produtos\": [\r\n      {\r\n        \"_id\": \"64040e4cf73ed3c7131cb305\",\r\n        \"quantidade\": 10\r\n      }\r\n    ],\r\n    \"precoTotal\": 110,\r\n    \"frete\": 12\r\n }",
+                "raw": " {\n    \"produtos\": [\n      {\n        \"_id\": \"64148c54c8071cdb1781e5c6\",\n        \"quantidade\": 4\n      }\n    ],\n    \"precoTotal\": 140,\n    \"precoEntrega\": 12\n }",
                 "form": []
             },
             "auth": {
