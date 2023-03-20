@@ -16,7 +16,7 @@ const deletePedidoService = async (id) => {
   return await Pedido.findByIdAndRemove(id);
 };
 
-const updateStatusPedidoService = (id) => {
+const updateStatusPedidoService = async (id) => {
   return Pedido.findByIdAndUpdate({ _id: id}, {$set: { concluido: true }});
 }
 
