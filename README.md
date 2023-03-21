@@ -1,10 +1,9 @@
-## API Pizza Delivery
+## :pizza: API Pizza Delivery
 
 
-Este projeto foi desenvolvido na conclusão do módulo de Back-end do curso de Desenvolvimento Full Stack da iTalents, seguindo as orientações transmitidas nas aulas do professor Leonardo Orabona. Trata-se de uma API RESTful criada em JavaScript, que utiliza diversos pacotes Node.js, tais como Express, Mongoose, JSON Web Tokens, Dotenv, Nodemon, Bcrypt, Swagger UI e CORS.
+<p>Este projeto foi desenvolvido na conclusão do módulo de Back-end do curso de Desenvolvimento Full Stack da iTalents, seguindo as orientações transmitidas nas aulas do professor Leonardo Orabona. Trata-se de uma API RESTful criada em JavaScript, que utiliza diversos pacotes Node.js, tais como Express, Mongoose, JSON Web Tokens, Dotenv, Nodemon, Bcrypt, Swagger UI e CORS.
 
 A aplicação adota o banco de dados MongoDB e segue o padrão MVC (Model-View-Controller), com todas as operações CRUD (Create, Read, Update e Delete) implementadas.
-
 
 | Pacote          | Descrição                                                                                                                                                | Versão |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
@@ -18,7 +17,7 @@ A aplicação adota o banco de dados MongoDB e segue o padrão MVC (Model-View-C
 | CORS            | Permite solicitações de diferentes origens                                                                                                               | 2.8.5   |
 
 
-## Funcionalidades
+## :rocket: Funcionalidades
 
 
 – Criação, busca, atualização e remoção de usuários;
@@ -27,21 +26,27 @@ A aplicação adota o banco de dados MongoDB e segue o padrão MVC (Model-View-C
 
 – Criação, busca, atualização e remoção de produtos;
 
-— Adição e remoção de categorias nos produtos;
+– Adição e remoção de categorias nos produtos;
 
-— Criação, busca, atualização e remoção de categoria, carrinho e pedido.
+– Criação, busca, atualização e remoção de categoria, carrinho e pedido.
 
 
-## Instalação
+
+## :computer: Instalação
 
 
 1. Faça o download do código completo;
+
 2. Abra o terminal do VS Code;
+
 3. Execute `npm i`;
+
 4. Rode usando `npm run dev`.
+
 5. Para testar as rotas, use a extensão Thunder Client.
 
-## Requisições HTTP
+
+## :globe_with_meridians: Requisições HTTP
 
 
 As requisições HTTP suportadas pela API incluem:
@@ -56,7 +61,7 @@ As requisições HTTP suportadas pela API incluem:
 | DELETE       | Remove uma informação.                                                        |
 
 
-## Respostas HTTP
+## :page_with_curl:  Respostas HTTP
 
 
 As respostas HTTP fornecidas pela API incluem:
@@ -71,7 +76,7 @@ As respostas HTTP fornecidas pela API incluem:
 | 500     | Internal Server Error - O servidor encontrou uma situação inesperada que o impediu de completar a solicitação. |
 
 
-## Agradecimento
+## :tada: Agradecimento
 
 
 Agradeço ao professor Leonardo Orabona por sua orientação valiosa durante as aulas!
